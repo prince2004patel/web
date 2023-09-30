@@ -3,8 +3,8 @@
 # Dance Academy Website
 
 Welcome to the Dance Academy website project! This web application is built using Node.js, MongoDB, Pug, and CSS to create a platform for dance enthusiasts to explore, learn, and connect.it first time to use 
-frontend, backend and database in this small project 
-
+frontend, backend and database in this small project and give website name on my friend name./*** Nakul's Dance Academy ***/
+ 
 ## Features
 
 - **Navigation Bar:** The website includes a user-friendly navigation bar with links to essential sections like Home, About, and Contact Us.
