@@ -1,0 +1,123 @@
+extends base.pug
+
+block scripts 
+  //-script(src="/static/index.js")
+
+block style 
+     style
+       include ../static/styleMain.css
+       include ../static/styleAbout.css
+
+block content
+    nav#navbar
+      ul
+          #logo 
+              img(src="/static/img/logo.png")
+              | NDA
+          li #[a(href="/") Home]  
+          li #[a(href="/about") About] 
+          li #[a(href="#") Services] 
+          li #[a(href="#") Class Info]  
+          li #[a(href="/contact") Contact Us]
+
+    section#missionSection
+        h2 Our Mission   
+        .card 
+           h3 Dance perfection
+           .card-box 
+               .card-img 
+                   img(src="/static/img/1.png")
+               .card-content 
+                   p this is the best dance academy of the universe
+        .card 
+           h3 Dance the way you like
+           .card-box 
+               .card-img 
+                   img(src="/static/img/4.png")
+               .card-content 
+                   p this is the best dance academy of the universe
+        .card 
+           h3 Expert teaching
+           .card-box 
+               .card-img 
+                   img(src="/static/img/3.png")
+               .card-content 
+                   p this is the best dance academy of the universe
+    
+    section#sponsorsSection
+        h2 Our Sponsors   
+        #sponsors 
+            img(src="/static/img/logo1.png",alt="sponsor image",Class="spIamge")
+            img(src="/static/img/logo2.png",alt="sponsor image",Class="spIamge")
+            img(src="/static/img/logo3.png",alt="sponsor image",Class="spIamge")
+            img(src="/static/img/logo4.png",alt="sponsor image",Class="spIamge")
+
+
+//- <html lang="en">
+//- <head>
+//-     <meta charset="UTF-8">
+//-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+//-     <title>Document</title>
+
+    
+//-     <link rel="stylesheet" href="../static/styleMain.css">
+//-     <link rel="stylesheet" href="../static/styleAbout.css">
+
+    
+//-     <script src="index.js"></script>
+
+//- </head>
+//- <body>
+//- <nav id="navbar">
+    //- <ul>
+    //-     <div id="logo"> <img src="/static/img/logo.png" />NDA</div>
+    //-     <li><a href="/">Home</a> </li>
+    //-     <li><a href="views/about.html">About</a> </li>
+    //-     <li><a href="#">Services</a> </li>
+    //-     <li><a href="#">Class Info</a> </li>
+    //-     <li><a href="views/contact.html">Contact Us</a></li>
+    //- </ul>
+//- </nav>
+//- <section id="missionSection">
+//-     <h2>Our Mission </h2>
+//-     <div class="card">
+//-         <h3>Dance perfection</h3>
+//-         <div class="card-box">
+//-             <div class="card-img"> <img src="/static/img/1.png" /></div>
+//-             <div class="card-content">
+//-                 <p>this is the best dance academy of the universe</p>
+//-             </div>
+//-         </div>
+//-     </div>
+//-     <div class="card">
+//-         <h3>Dance the way you like</h3>
+//-         <div class="card-box">
+//-             <div class="card-img"> <img src="/static/img/4.png" /></div>
+//-             <div class="card-content">
+//-                 <p>this is the best dance academy of the universe</p>
+//-             </div>
+//-         </div>
+//-     </div>
+//-     <div class="card">
+//-         <h3>Expert teaching</h3>
+//-         <div class="card-box">
+//-             <div class="card-img"> <img src="/static/img/3.png" /></div>
+//-             <div class="card-content">
+//-                 <p>this is the best dance academy of the universe</p>
+//-             </div>
+//-         </div>
+//-     </div>
+//- </section>
+//- <section id="sponsorsSection">
+//-     <h2>Our Sponsors </h2>
+//-     <div id="sponsors">
+//-     <img src="/static/img/logo1.png" alt="sponsor image" Class="spIamge" />
+//-     <img src="/static/img/logo2.png" alt="sponsor image" Class="spIamge" />
+//-     <img src="/static/img/logo3.png" alt="sponsor image" Class="spIamge" />
+//-     <img src="/static/img/logo4.png" alt="sponsor image" Class="spIamge" />
+//-     </div>
+//- </section> 
+//-</body>
+//-</html>           

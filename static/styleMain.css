@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung|ZCOOL+QingKe+HuangYou&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 28px;
+    margin-right: 40px;
+
+}
+#logo img{
+    height: 40px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color:#d43b3b;
+    padding: 5px 14px;
+    font-family: 'Yeon Sung' ;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+    cursor: pointer;  
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 13px 20px;
+}
+
+
+#navbar li a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 13px 20px;
+    cursor: pointer;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+/* #navbar li p{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 13px 20px;
+    cursor: pointer;
+}
+
+#navbar li p:hover{
+    color: black;
+} */
+
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 47px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}

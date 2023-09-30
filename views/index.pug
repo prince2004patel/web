@@ -1,0 +1,62 @@
+extends base.pug
+
+block scripts 
+ //- script(src="/static/index.js")
+
+block style 
+     style
+       include ../static/styleMain.css
+       include ../static/styleHome.css
+
+block content
+    nav#navbar
+      ul
+          #logo 
+              img(src="/static/img/logo.png")
+              | NDA
+          li #[a(href="/") Home]  
+          li #[a(href="/about") About] 
+          li #[a(href="#") Services] 
+          li #[a(href="#") Class Info]  
+          li #[a(href="/contact") Contact Us]
+
+    section#introSection
+        div Welcome to Nakul's Dance Academy 
+        div.small Eat Sleep Dance Repeat
+
+
+//- <html lang="en">
+//- <head>
+//-     <meta charset="UTF-8">
+//-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+//-      <title>Document</title>
+
+//-      <!-- this is how you include external css -->
+//-      <link rel="stylesheet" href="dancewebsite/static/styleMain.css">
+//-      <link rel="stylesheet" href="dancewebsite/static/styleHome.css">
+
+//-      <!-- this is how you include external js -->
+//-      <script src="index.js"></script>
+
+//- </head>
+//- <body>
+ 
+
+//- <nav id="navbar">
+//-     <ul>
+//-         <div id="logo"> <img src="dancewebsite/static/img/logo.png" />NDA</div>
+//-         <li><a href="/">Home</a> </li>
+//-         <li><a href="dancewebsite/views/about.pug">About</a> </li>
+//-         <li><a href="#">Services</a> </li>
+//-         <li><a href="#">Class Info</a> </li>
+//-         <li><a href="dancewebsite/views/contact.pug">Contact Us</a></li>
+//-     </ul>
+//- </nav>
+//- <section id="introSection">
+//-     <div>Welcome to Nakul's Dance Academy </div>
+//-     <div class="small">Eat Sleep Dance Repeat</div>
+//- </section>
+//- </body>
+//- </html>        
