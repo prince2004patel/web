@@ -2,7 +2,8 @@
 
 # Dance Academy Website
 
-Welcome to the Dance Academy website project! This web application is built using Node.js, MongoDB, Pug, and CSS to create a platform for dance enthusiasts to explore, learn, and connect.
+Welcome to the Dance Academy website project! This web application is built using Node.js, MongoDB, Pug, and CSS to create a platform for dance enthusiasts to explore, learn, and connect.it first time to use 
+frontend, backend and database in this small project 
 
 ## Features
 
