@@ -24,3 +24,9 @@ frontend, backend and database in this small project and give website name on my
 - **CSS:** Custom CSS styles are applied to enhance the visual appeal of the website.
 
 ![WhatsApp Image 2023-10-20 at 18 22 31](https://github.com/prince2004patel/web_dance_academy/assets/141562215/a0f50e85-440d-4449-9a18-129f83563bcf)
+
+![WhatsApp Image 2023-10-20 at 18 22 31 (1)](https://github.com/prince2004patel/web_dance_academy/assets/141562215/b3625cf1-733a-49cd-b283-bb60d7ed969a)
+
+![WhatsApp Image 2023-10-20 at 18 22 31 (2)](https://github.com/prince2004patel/web_dance_academy/assets/141562215/5d45893c-6cad-463b-869b-6016e789b62a)
+
+![WhatsApp Image 2023-10-20 at 18 22 31 (3)](https://github.com/prince2004patel/web_dance_academy/assets/141562215/e95f3625-88bb-4f48-8c5c-1fddd1d795de)
